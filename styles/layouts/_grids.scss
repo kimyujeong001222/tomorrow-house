@@ -42,10 +42,12 @@ $lg-max-container: ($lg-unit + $gutter) * $lg-columns;
   padding: 0 $sm-margin;
   margin: 0 auto;
 
+
   .row {
     display: flex;
     flex-wrap: wrap;
   }
+  
 
   // .col-sm-1 .col-md-2 .col-lg-3
   [name^='col-'] {
